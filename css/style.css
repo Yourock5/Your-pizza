@@ -1,0 +1,394 @@
+body {background: #E5E5E5;}
+
+.container {
+Width :1200px;
+Height :auto;
+margin: 40px auto;
+box-shadow: 1px 1px 20px 1px rgba(0, 0, 0, 1);
+}
+
+.block1 {
+width: 1200px;
+height: 830px;
+background: #F0F5FB;
+}
+
+header {
+    width: 1160px;
+    height: 100px;
+    margin: 0px auto;
+    display: flex;
+    justify-content:space-evenly;
+}
+
+.head1 {
+    display: flex;
+    justify-content: space-between;
+    width: 300px;
+    padding-top: 30px;
+}
+
+.logo {
+    width: 90px;
+    height: 30px;
+    border-radius :5%;
+    box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 1);
+    padding: 20px;
+    margin-left: 20px;
+}
+
+.head3 {
+    display: flex;
+    justify-content: space-between;
+    width: 280px;
+    padding-top: 30px;
+}
+
+img.tel {
+    width:30px;
+    height:30px;
+    border-radius: 50%;
+    padding-top: 10px;
+    cursor: pointer;
+}
+
+.im {
+    width: 50px;
+    margin-right: -60px;
+    opacity: 60%;
+}
+
+.block1-1 {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 70px;
+    height:200px;
+}
+
+.im2 {
+    width: 130px;
+    margin-bottom: 50px;
+}
+
+.block1-1-2 {width: 500px;
+padding-top: 60px;
+text-align: center;
+}
+
+.im1 {
+    width: 180px;
+    margin-top: 50px;
+}
+
+.block1-2 {
+    display: flex;
+    justify-content:space-around;
+}
+
+.pizza {
+    width: 630px;
+}
+
+.im3 {
+    width: 70px;
+    height: 70px;
+    padding-top: 170px;
+}
+
+.im4 {
+    width: 70px;
+    height: 70px;
+    padding-top: 250px;
+}
+
+
+.block2 {
+    margin-top: -25px;
+    height: 1450px;
+    background-color: #fff;
+    margin-bottom: -25px;
+}
+
+.popular {
+    text-align: center;
+}
+
+.block-buton {
+    width: 800px;
+    margin: 0px auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+.but {
+    width: 135px;
+    height: 55px;
+    background: linear-gradient(0deg, #ECEEF6, #ECEEF6), #59AAF1;
+    border-radius: 45px;
+    border:none;
+    cursor: pointer;
+    transition-duration: 0.8s;
+}
+
+button.but:hover {
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+}
+
+.but1 {
+    background: #F3AE0F;
+    width: 135px;
+    height: 55px;
+    border-radius: 45px;
+    border:none;
+    cursor: pointer;
+    transition-duration: 0.8s;
+}
+
+button.but1:hover { 
+    background-color: #f59500;
+        color:  #F3AE0F;
+}
+
+h4.piz {color: white;}
+
+.block3 {
+    width: 1000px;
+    margin-top: 50px;
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    gap: 50px;
+    justify-content: center;
+    margin: 70px auto;
+}
+
+.block3-1 {
+    width: 230px;
+    height: 350px;
+    border-radius: 25px;
+    background-size: cover;
+    background-position: 50%;
+    box-shadow: 0px 0px 20px 0.5px rgba(0, 0, 0, 0.5);
+}
+
+img.p {
+    width: 170px;
+    padding :10px 0 0px 45px;
+}
+
+h3.name-pizza {
+    margin: 0 0 0 25px;
+}
+
+p.text-pizza {
+    padding: 0 11px 0 11px;
+}
+
+p.cost-pizza {
+    text-align: center;
+    opacity: 0.7;
+}
+
+img.basket {
+    width: 12%;
+    margin:0 0 -20px 105px;
+    cursor: pointer;
+}
+
+.block3-2{
+    display: flex;
+    justify-content: space-between;
+}
+
+.im5, .im6 {
+    opacity: 0.5;
+    width: 7%;
+}
+
+img.update {
+    width: 80px;
+    height: 80px;
+    cursor: pointer;
+}
+
+.block4 {
+    display: flex;
+    justify-content:space-between;
+    margin-top :50px;
+}
+
+.foto1 {
+    width: 100px;
+    height: 220px;
+    opacity: 0.7;
+    background:  url(/img/fon1.jpeg);
+} 
+
+.foto2, .foto3, .foto4, .foto5 {
+    width: 220px;
+    height: 220px;
+    opacity: 0.7;
+}
+
+.foto2 {
+    background:  url(/img/fon2.jpeg);
+}
+
+.foto3 {
+    background:  url(/img/fon3.jpeg);
+}
+
+.foto4 {
+    background:  url(/img/fon4.jpeg);
+}
+
+.foto5 {
+    background:  url(/img/fon5.jpeg);
+}
+
+.foto6 {
+    width: 100px;
+    height: 220px;
+    opacity: 0.7;
+    background:  url(/img/fon6.jpeg);
+}
+
+.block4-1 {
+    position:absolute;
+    left: 38%;
+    width: 300px;
+    height: 100px;
+    margin-top: 60px;
+
+    background: linear-gradient(45.04deg, #FD9924 -51.05%, #F65B16 134.89%);
+box-shadow: 0px 70px 90px rgba(253, 55, 36, 0.2), 0px 35px 50px rgba(253, 55, 36, 0.2), 0px 20px 25px rgba(253, 55, 36, 0.2);
+border-radius: 15px;
+}
+
+p.inst {
+    text-align: center;
+    padding-top: 20px;
+    color :white;
+    font-size: 18px;
+}
+
+.block5 {
+    height: 550px;
+    background: #F0F5FB;
+}
+
+.block5-1 {
+    display: flex;
+    justify-content: space-between;
+}
+
+.b5-h {
+    text-align:center;
+    padding-top: 50px;
+}
+
+img.f1 {
+    width:50px;
+    height: 100px;
+    padding-top: 70px;
+}
+
+.block5-2 {
+    display: flex;
+    justify-content: space-between;
+}
+
+.b5-h {
+    text-align:center;
+    padding-top: 50px;
+}
+
+img.f1 {
+    width:50px;
+    height: 100px;
+    padding-top: 70px;
+}
+
+img.f2 {width: 15%;
+height: 10%;
+padding-top: 50px;
+}
+
+img.f3 {
+    width: 22%;
+    height: 22%;
+    padding-top: 70px;
+}
+
+.block-buton2    {
+    width: 800px;
+    margin: 30px auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+.but2 {
+    width: 200px;
+    height: 56px;
+    background: white;
+    border-radius: 45px;
+    border:none;
+    cursor: pointer;
+    transition-duration: 0.8s;
+}
+
+button.but2:hover {
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+}
+
+h4.but2-1 {
+    
+    opacity: 0.7;
+}
+
+.but3 {
+    background: #F3AE0F;
+    width: 200px;
+    height: 60px;
+    border-radius: 45px;
+    border:none;
+    cursor: pointer;
+    transition-duration: 0.8s;
+}
+
+button.but3:hover { 
+    background-color: #f59500;
+        color:  #F3AE0F;
+}
+
+h4.call {
+    color :white;
+}
+
+footer {
+    height: 150px;
+    background-color: #fff;
+}
+
+.block6 {
+    display: flex;
+    justify-content:space-around;
+    padding-top: 80px;
+}
+
+
+
+
+
+    
+@media (max-width: 1300px) {
+    .container {
+        Width :1200px;
+        }
+
+        .block1 {
+        width: 1200px;
+        height: 830px;
+        background: #F0F5FB;
+            }
+}
+
