@@ -220,7 +220,7 @@ img.update {
     width: 100px;
     height: 220px;
     opacity: 0.7;
-    background:  url(/img/fon1.jpeg);
+    background:  url(../img/fon1.jpeg);
 } 
 
 .foto2, .foto3, .foto4, .foto5 {
@@ -230,26 +230,26 @@ img.update {
 }
 
 .foto2 {
-    background:  url(/img/fon2.jpeg);
+    background:  url(../img/fon2.jpeg);
 }
 
 .foto3 {
-    background:  url(/img/fon3.jpeg);
+    background:  url(../img/fon3.jpeg);
 }
 
 .foto4 {
-    background:  url(/img/fon4.jpeg);
+    background:  url(../img/fon4.jpeg);
 }
 
 .foto5 {
-    background:  url(/img/fon5.jpeg);
+    background:  url(../img/fon5.jpeg);
 }
 
 .foto6 {
     width: 100px;
     height: 220px;
     opacity: 0.7;
-    background:  url(/img/fon6.jpeg);
+    background:  url(../img/fon6.jpeg);
 }
 
 .block4-1 {
