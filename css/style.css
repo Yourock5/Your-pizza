@@ -1,16 +1,18 @@
-body {background: #E5E5E5;}
+body {
+    background: #E5E5E5;
+    font-family: Montserrat;
+}
 
 .container {
-Width :1200px;
-Height :auto;
-margin: 40px auto;
-box-shadow: 1px 1px 20px 1px rgba(0, 0, 0, 1);
+    Width :1200px;
+    Height :auto;
+    margin: 40px auto;
+    box-shadow: 1px 1px 20px 1px rgba(0, 0, 0, 1);
 }
 
 .block1 {
-width: 1200px;
-height: 830px;
-background: #F0F5FB;
+    height: 830px;
+    background: #F0F5FB;
 }
 
 header {
@@ -21,7 +23,7 @@ header {
     justify-content:space-evenly;
 }
 
-.head1 {
+.header-menu {
     display: flex;
     justify-content: space-between;
     width: 300px;
@@ -35,9 +37,10 @@ header {
     box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 1);
     padding: 20px;
     margin-left: 20px;
+    background-color: #fff;
 }
 
-.head3 {
+.header-contacts {
     display: flex;
     justify-content: space-between;
     width: 280px;
@@ -45,17 +48,24 @@ header {
 }
 
 img.tel {
-    width:30px;
-    height:30px;
+    width:27px;
+    height:27px;
     border-radius: 50%;
-    padding-top: 10px;
+    padding-top: 12px;
     cursor: pointer;
+    margin-right: -20px;
 }
 
-.im {
-    width: 50px;
-    margin-right: -60px;
-    opacity: 60%;
+a.tel {
+    text-decoration: none;
+    color: black;
+    margin-top: 16px;
+}
+
+img.img {
+    width: 70px;
+    margin: 10px -80px 0 0;
+    opacity: 0.5;
 }
 
 .block1-1 {
@@ -70,9 +80,10 @@ img.tel {
     margin-bottom: 50px;
 }
 
-.block1-1-2 {width: 500px;
-padding-top: 60px;
-text-align: center;
+.block1-text {
+    width: 500px;
+    padding-top: 60px;
+    text-align: center;
 }
 
 .im1 {
@@ -85,9 +96,7 @@ text-align: center;
     justify-content:space-around;
 }
 
-.pizza {
-    width: 630px;
-}
+.pizza {width: 630px;}
 
 .im3 {
     width: 70px;
@@ -115,25 +124,11 @@ h2.popular {
     padding-bottom: 40px;
 }
 
-.block-buton {
+.block-button {
     width: 800px;
     margin: 0px auto;
     display: flex;
     justify-content: space-between;
-}
-
-.but {
-    width: 135px;
-    height: 55px;
-    background: linear-gradient(0deg, #ECEEF6, #ECEEF6), #59AAF1;
-    border-radius: 45px;
-    border:none;
-    cursor: pointer;
-    transition-duration: 0.8s;
-}
-
-button.but:hover {
-    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
 }
 
 .but1 {
@@ -148,12 +143,30 @@ button.but:hover {
 
 button.but1:hover { 
     background-color: #f59500;
-        color:  #F3AE0F;
+    color:  #F3AE0F;
 }
 
-h4.piz {color: white;}
+h4.piz {
+    color: white;
+    margin: 0;
+}
 
-.block3 {
+.button-text {margin: 0;}
+
+.but {
+    width: 135px;
+    height: 55px;
+    background: linear-gradient(0deg, #ECEEF6, #ECEEF6), #59AAF1;
+    border-radius: 45px;
+    border:none;
+    cursor: pointer;
+    transition-duration: 0.8s;
+}
+
+button.but:hover {box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);}
+
+
+.block-pizza {
     width: 1000px;
     margin-top: 50px;
     display: grid;
@@ -163,11 +176,10 @@ h4.piz {color: white;}
     margin: 70px auto;
 }
 
-.block3-1 {
+.block-pizza-1 {
     width: 230px;
     height: 350px;
     border-radius: 25px;
-    background-size: cover;
     background-position: 50%;
     box-shadow: 0px 0px 20px 0.5px rgba(0, 0, 0, 0.5);
 }
@@ -181,9 +193,7 @@ h3.name-pizza {
     margin: 0 0 0 25px;
 }
 
-p.text-pizza {
-    padding: 0 11px 0 11px;
-}
+p.text-pizza {padding: 0 11px 0 11px;}
 
 p.cost-pizza {
     text-align: center;
@@ -196,7 +206,7 @@ img.basket {
     cursor: pointer;
 }
 
-.block3-2{
+.block-pizza-2{
     display: flex;
     justify-content: space-between;
 }
@@ -212,7 +222,8 @@ img.update {
     cursor: pointer;
 }
 
-.block4 {
+
+.block3 {
     display: flex;
     justify-content:space-between;
     margin-top :50px;
@@ -231,21 +242,13 @@ img.update {
     opacity: 0.7;
 }
 
-.foto2 {
-    background:  url(../img/fon2.jpeg);
-}
+.foto2 {background:  url(../img/fon2.jpeg);}
 
-.foto3 {
-    background:  url(../img/fon3.jpeg);
-}
+.foto3 {background:  url(../img/fon3.jpeg);}
 
-.foto4 {
-    background:  url(../img/fon4.jpeg);
-}
+.foto4 {background:  url(../img/fon4.jpeg);}
 
-.foto5 {
-    background:  url(../img/fon5.jpeg);
-}
+.foto5 {background:  url(../img/fon5.jpeg);}
 
 .foto6 {
     width: 100px;
@@ -254,13 +257,13 @@ img.update {
     background:  url(../img/fon6.jpeg);
 }
 
-.block4-1 {
+.block-inst {
     position:absolute;
-    left: 38%;
+    left: 0;
+    right: 0;
+    margin: 60px auto;
     width: 300px;
     height: 100px;
-    margin-top: 60px;
-
     background: linear-gradient(45.04deg, #FD9924 -51.05%, #F65B16 134.89%);
 box-shadow: 0px 70px 90px rgba(253, 55, 36, 0.2), 0px 35px 50px rgba(253, 55, 36, 0.2), 0px 20px 25px rgba(253, 55, 36, 0.2);
 border-radius: 15px;
@@ -271,7 +274,14 @@ p.inst {
     padding-top: 20px;
     color :white;
     font-size: 18px;
+    opacity: 7.8;
 }
+
+span.inst {
+    cursor: pointer;
+    font-size: 24px;
+}
+
 
 .block5 {
     height: 550px;
@@ -321,7 +331,7 @@ img.f3 {
     padding-top: 70px;
 }
 
-.block-buton2    {
+.block-button2    {
     width: 800px;
     margin: 30px auto;
     display: flex;
@@ -338,14 +348,7 @@ img.f3 {
     transition-duration: 0.8s;
 }
 
-button.but2:hover {
-    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
-}
-
-h4.but2-1 {
-    
-    opacity: 0.7;
-}
+button.but2:hover {box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);}
 
 .but3 {
     background: #F3AE0F;
@@ -359,19 +362,26 @@ h4.but2-1 {
 
 button.but3:hover { 
     background-color: #f59500;
-        color:  #F3AE0F;
+    color:  #F3AE0F;
+}
+
+h4.but2-1 {
+    opacity: 0.7;
+    margin: 0;
 }
 
 h4.call {
     color :white;
+    margin: 0;
 }
+
 
 footer {
     height: 150px;
     background-color: #fff;
 }
 
-.block6 {
+.block-footer {
     display: flex;
     justify-content:space-around;
     padding-top: 80px;
@@ -381,16 +391,12 @@ footer {
 
 
 
-    
 @media (max-width: 1300px) {
     .container {
-        Width :1200px;
+ 
         }
 
         .block1 {
-        width: 1200px;
-        height: 830px;
-        background: #F0F5FB;
+
             }
 }
-
