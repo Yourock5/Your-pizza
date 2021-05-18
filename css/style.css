@@ -24,6 +24,9 @@ header {
     background-color: #fff;
 }
 
+img.lo {width: 10%;
+    object-fit: fill;}
+
 .men {display: none;}
 
 #menuToggle{display: none;}
@@ -766,6 +769,8 @@ a.tel {
 
     .foto3 {display: none;}
     .block3 {margin-top: 70px;}
+
+    img.lo {width: 20%;}
 }
 
     @media (max-width: 550px) {
@@ -776,7 +781,7 @@ a.tel {
         padding-top: 30px;
         }
 
-        .foto5 {display: none;}
+        .foto5, img.f1 {display: none;}
         .foto2 {margin: 0 auto;}
 
         .block-inst {
@@ -814,6 +819,8 @@ a.tel {
           #menu li{font-size: 12px;}
 
           .pizza {display: none;}
+
+          img.car {display: none;}
     }
 
     @media (max-width: 370px) {
