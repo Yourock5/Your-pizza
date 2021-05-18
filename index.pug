@@ -11,30 +11,51 @@ html(lang="en")
         .container
             .block1
                 header 
+                    .men
+                        #menuToggle 
+                            input(type="checkbox")
+                            span 
+                            span 
+                            span 
+                            ul#menu 
+                                li 
+                                    a(href="#") Menu
+                                li 
+                                    a(href="#")  About as
+                                li 
+                                    a(href="#")  Contact
+                    img.lo(src="img/piz.jpeg")                
                     .menu
-                        ul.navigation
-                            li 
-                                a(href="") About as
-                            li 
-                                a(href="") Menu
-                                ul 
+                        .nav
+                            ul 
+                                li  
+                                    a(href="#")
+                                        span About as 
+                                li.dropdown 
+                                    a(href="#")
+                                        span Menu 
+                                    ul 
+                                        li 
+                                            a(href="#")
+                                                span Pizza
+                                        li 
+                                            a(href="#")
+                                                span Sushi
+                                        li 
+                                            a(href="#")
+                                                span Salad
+                                        li 
+                                            a(href="#")
+                                                span Drinks 
                                     li 
-                                        a(href="") Pizza 
-                                    li 
-                                        a(href="") Sushi  
-                                    li 
-                                        a(href="") Salad  
-                                    li 
-                                        a(href="") Drinks  
-                            li 
-                                a(href="") Contact
-                            .clear
-                    h2.logo Yur_Nis
+                                        a(href="#")
+                                            span Contacts
+                    
                     .header-contacts
-                        p Every day 24/7
-                        img.tel(src="img/tel.jpeg")
-                        a.tel(href="tel:+0800000000") 0 800 00 00 00
-                        img.img(src="img/img.svg")
+                        p.every-day Every day 24/7
+                        a.tel(href="tel:+0800000000") 
+                            img.tel(src="img/tel.jpeg")         
+
                 .block1-1
                     img.im2(src="img/img2.png")
                     .block1-text
@@ -55,7 +76,7 @@ html(lang="en")
                         h4.button-text Sushi
                     button.but
                         h4.button-text Salad
-                    button.but
+                    button.but-d
                         h4.button-text Dessert
                     button.but
                         h4.button-text Drinks
@@ -96,13 +117,13 @@ html(lang="en")
                         p.text-pizza Chees Feta, mozzarella, barrel, Parmesan cheese
                         p.cost-pizza 99 UAH
                         img.basket(src="img/basket.jpeg")
-                    .block-pizza-1
+                    .block-pizza-1-1
                         img.p(src="img/p7.jpg")
                         h3.name-pizza Quatro formagio
                         p.text-pizza Dough, mozzarella, barrel, eggs, Parmesan cheese
                         p.cost-pizza 118 UAH
                         img.basket(src="img/basket.jpeg")
-                    .block-pizza-1
+                    .block-pizza-1-1
                         img.p(src="img/p8.jpg")
                         h3.name-pizza Hawaiian
                         p.text-pizza Chicken, Pineapple, mozzarella, barrel, Parmesan cheese
@@ -121,7 +142,7 @@ html(lang="en")
                     .foto5
                     .foto6
                     .block-inst
-                        p.inst Instagram:  <span class="inst">@Y.u.r_N.i.s  </span>
+                        p.inst Instagram:  <span class="inst">@Pizza_Ok  </span>
             
             .block5 
                 .block5-1
@@ -130,20 +151,24 @@ html(lang="en")
                         h1 Fill out the form
                         h1 and we will call you
                     img.f1(src="img/f2.png")
-                .block-button2    
-                    button.but2
-                        h4.but2-1 Your name
-                    button.but2
-                        h4.but2-1 Phone number
+                .block-button2   
+                    <input class="inp" placeholder="Your name"> 
+                    <input class="inp" placeholder="Phone number"> 
                     button.but3
                         h4.call Сall back    
                 .block5-2
-                    img.f2(src="img/f4.png", alt="")
-                    img.car(src="img/car.png", alt="")
-                    img.f3(src="img/f3.png", alt="")
+                    img.f2(src="img/f4.png")
+                    img.car(src="img/car.png")
+                    img.f3(src="img/f3.png")
 
             footer 
                 .block-footer
                     p Best pizza in your city 
-                    h3 Y.u.r_N.i.s 
-                    p For people as for themselves                         
+                    h3 Pizza_Ok
+                    a.tel(href="tel:+0800000000") 0 800 00 00 00
+                .foot-mob
+                    p Best pizza 24/7
+                    a.tel(href="tel:+0800000000") 
+                        img.tel(src="img/tel.jpeg") 
+            
+                        
