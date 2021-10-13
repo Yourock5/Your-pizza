@@ -25,7 +25,7 @@ header {
 }
 
 img.lo {width: 10%;
-    object-fit: fill;}
+    object-fit: cover;}
 
 .men {display: none;}
 
@@ -781,7 +781,7 @@ a.tel {
         padding-top: 30px;
         }
 
-        .foto5, img.f1 {display: none;}
+        .foto5{display: none;}
         .foto2 {margin: 0 auto;}
 
         .block-inst {
